@@ -47,8 +47,8 @@
 
 
     <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
-        <!--&lt;!&ndash;&lt;!&ndash;        &lt;!&ndash; 指定扫描的包名
-                如果扫描多个包，每个包中间使用半角逗号分隔 &ndash;&gt;&ndash;&gt;&ndash;&gt;-->
+        <!--        指定扫描的包名
+                如果扫描多个包，每个包中间使用半角逗号分隔 -->
         <property name="basePackage" value="mapper1.UserMapper;"/>
         <property name="sqlSessionFactoryBeanName" value="sqlSessionFactory"></property>
     </bean>
